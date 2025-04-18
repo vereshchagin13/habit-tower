@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <title>Habit Tower</title>
@@ -8,10 +8,13 @@
 </head>
 <body>
   <div class="app">
-    <h1>🏗 Твоя Башня Привычек</h1>
-    <p>Каждая выполненная привычка — новый этаж!</p>
-    <button onclick="markHabit()">✅ Выполнено</button>
-    <div id="tower">Этажей: 0</div>
+    <h1>🏗 Башня Привычек</h1>
+    <p>Каждая выполненная привычка — +1 этаж!</p>
+    <button onclick="markHabit()">✅ Выполнил привычку</button>
+
+    <div id="tower-wrapper">
+      <div id="tower"></div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
